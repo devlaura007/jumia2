@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+.container{
+    background-color: rgb(244, 238, 238);
+}
+.first-nav{
+    background-color: gainsboro;
+    height: 50px;
+    display: flex;
+    gap: 200px;
+    padding: 5px 200px;
+}
+.first{
+    display: flex;
+    padding: 10px 2px;
+    color: orange;
+}
+.first img{
+    padding: 10px 0;
+}
+.jumia{
+    padding: 10px;
+}
+nav{
+    height: 50px;
+    display: flex;
+    padding: 20px 0;
+    background-color: white;
+    box-shadow: 0px 0px 1px 0px rgba(0,0.3,0.3,0.3);
+    padding: 5px 200px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 600px;
+    height: 20px;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 10px 5px;
+}
+input{
+    border: none;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: orange;
+    font-size: 16px;
+    border: none;
+    height: 45px ;
+    width: 80px;
+    padding: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 1px rgba(0,1,2,0.3);
+}
+.menu{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.account{
+    display: flex;
+    padding: 15px;
+}
+.account p{
+    padding: 15px 0;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.account a{
+    text-decoration: none;
+}
+.hero-section{
+    /* background-color: orange; */
+    height: 412px;
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    padding: 5px 200px;
+}
+main{
+    padding: 5px 200px;
+}
+.order{
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+.cart{
+    background-color: white;
+}
+.cart a{
+    text-decoration: none;
+    color: grey;
+}
+.cart a:hover{
+    color: orange;
+}
+
+.heloo{
+   padding: 20px 0;
+   background-color: white;
+   width: 250px;
+}
+
+.box4{
+    margin: 13px 0;
+}
+.cart{
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+}
+.num{
+    font-size: 14px;
+}
+.wrap{
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+}
+.wrap3{
+    background-color: skyblue;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+}
+.wrap4{
+    background-color: rgb(134, 197, 190);
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+}
+.wrap5{
+    background-color: rgb(125, 168, 177);
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+.wrapper1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 10px;
+    background-color: white;
+    height: 500px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px 0; 
+}
+.caption1{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 10px;
+    background-color: white;
+    height: 300px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 10px;
+    background-color: white;
+    height: 300px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.caption2{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    padding: 10px;
+    border-radius: 4px;
+}
+.wrapper3, .wrapper6, .wrapper8, .wrapper10, .wrapper12, 
+.wrapper14, .wrapper16, .wrapper18, .wrapper20{
+    margin: 20px 0; 
+}
+.container5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 10px;
+    background-color: white;
+    height: 1200px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.container6, .container8, .container10, .container12, 
+.container14,.container16,.container17, .container19{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 10px;
+    background-color: white;
+    height: 280px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 0px rgba(0,0.3,0.3,0.3);
+}
+.container7, .container9,.container11, .container18,
+ .container20, .container21{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 10px;
+    background-color: white;
+    height: 240px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 0px rgba(0,0.3,0.3,0.3);
+}
+.container13, .container15{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 10px;
+    background-color: white;
+    height: 500px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 0px rgba(0,0.3,0.3,0.3);
+}
+.royal{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-row-gap: 15px;
+    background-color: white;
+    height: 240px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+.caption3, .caption4, .caption6, .caption8, .caption12, 
+.caption17, .caption19, .caption10{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.caption13{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(9, 110, 120);
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+}
+.price{
+    background-color: orange;
+    border-radius: 20px;
+    width: 100px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    left: 2;
+    bottom: 20px;
+}
+
+ .caption14, .caption15{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(9, 110, 120);
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+ }
+ .passage{
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 0px rgba(0,0.3,0.3,0.3);
+ }
+
+ .foot{
+    display: flex;
+    background-color: rgb(46, 45, 45);
+    color: white;
+    gap: 100px;
+    padding: 5px 200px;
+ }
+ .email-box{
+    display: flex;
+    gap: 10px;
+ }
+ .email{
+    display: flex;
+    background-color: white;
+    color: grey;
+    padding: 15px;
+    gap: 5px;
+    border-radius: 5px;
+    margin: 20px 0;
+ }
+ .button-box{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+ }
+ .btn1, .btn2{
+    background-color: rgb(46, 45, 45);
+    border: 2px solid white;
+ }
+ .square{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+ }
+ .sub-section{
+    display: flex;
+    gap: 30px;
+    margin: 10px 0;
+ }
+ .square2, .square4, .square6{
+    display: flex;
+    gap: 5px;
+ }
+ .foot-panel{
+    background-color: rgb(69, 69, 69);
+    display: flex;
+    color: white;
+    gap: 50px;
+    padding: 5px 200px;
+ }
+ .foot-panel li{
+    list-style: none;
+ }
+ .foot-panel a{
+    color: antiquewhite;
+    text-decoration: none;
+ }
+ .panel{
+    display: flex;
+    padding: 0 20px;
+ }
+ .panel3{
+    margin-top: 10px;
+ }
+ .pan{
+    background-color: rgb(69, 69, 69);
+    display: flex;
+    gap: 150px;
+    padding: 20px 10px;
+    color: white;
+    padding: 5px 200px;
+ }
+ .logo, .logo2{
+    display: flex;
+    gap: 20px;
+ }
+ .logo3{
+    background-color: rgb(69, 69, 69);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+ }
+ .privacy{
+    color: orange;
+    font-size: 15px;
+ }
+ .privacy2{
+    color: gainsboro;
+    width: 450px;
+    font-size: 13px;
+ }
+
+
+
+
